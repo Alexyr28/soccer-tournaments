@@ -42,7 +42,9 @@ INSTALLED_APPS = [
     #local
     "tournaments.apps.TournamentsConfig",
     "gameEvents.apps.GameEventsConfig",
-    "player.apps.PlayerConfig"
+    "player.apps.PlayerConfig",
+    "game.apps.GameConfig",
+    "match.apps.MatchConfig",
 ]
 
 MIDDLEWARE = [
