@@ -41,8 +41,8 @@ INSTALLED_APPS = [
     'rest_framework',
     #local
     "tournaments.apps.TournamentsConfig",
-    "apis.apps.ApisConfig",
-    
+    "gameEvents.apps.GameEventsConfig",
+    "player.apps.PlayerConfig"
 ]
 
 MIDDLEWARE = [
