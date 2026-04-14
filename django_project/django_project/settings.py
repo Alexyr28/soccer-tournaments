@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     #local
     "tournaments.apps.TournamentsConfig",
+    "apis.apps.ApisConfig",
     
 ]
 
